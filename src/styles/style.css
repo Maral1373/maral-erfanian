@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2155CD;
+  font-family: "Grape Nuts", cursive;
+  font-family: "Indie Flower", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.box1 {
+  background-color: #E8F9FD;
+  flex: 2;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+}
+
+.content1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+}
+
+.person > img {
+  width: 15rem;
+  z-index: 1;
+}
+
+.me,
+.text-1 {
+  width: 10rem;
+  height: 5rem;
+}
+
+.me {
+  align-self: center;
+  z-index: 2;
+  order: 2;
+}
+
+.text-1 {
+  order: 1;
+  height: 10rem;
+  align-self: flex-end;
+  padding-left: 1rem;
+}
+
+.box2 {
+  background-color: #79DAE8;
+  flex: 1;
+  width: 60vw;
+  display: flex;
+}
+
+.content2 {
+  display: flex;
+}
+
+.anime {
+  display: flex;
+  width: 28rem;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+}
+
+.anime > div {
+  width: 15rem;
+  height: 5rem;
+}
+
+.anime > p {
+  width: 15rem;
+}
+
+.personal {
+  flex-direction: row;
+  width: 40rem;
+  height: 15rem;
+  display: flex;
+}
+
+.personal > img {
+  width: 40rem;
+  align-self: center;
+}
+
+.box3 {
+  background-color: #E8F9FD;
+  flex: 2;
+  width: 60vw;
+}
+
+.box3 {
+  display: flex;
+  justify-content: center;
+}
+
+.content3 {
+  display: grid;
+  grid-template-columns: repeat(3, 20rem);
+  grid-template-rows: repeat(3, 20rem);
+}
+
+.item1 {
+  padding: 2rem;
+}
+
+.item1 img {
+  width: 15rem;
+}
+
+.item2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 2rem;
+}
+
+.item2 img {
+  width: 10rem;
+}
+
+.item3 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.item3 img {
+  width: 20rem;
+  margin-top: 3rem;
+}
+
+.item5 {
+  border: 1px solid rgb(165, 33, 33);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item7 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.item7 img {
+  width: 20rem;
+}
+
+.item8 {
+  text-align: center;
+  padding-top: 3.5rem;
+}
+
+.item8 button {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: #79DAE8;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.473);
+}
+
+.item9 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.item9 img {
+  width: 10rem;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+
+.box4 {
+  background-color: #0AA1DD;
+  flex: 1;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.text-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
