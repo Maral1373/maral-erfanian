@@ -51,11 +51,14 @@ body {
 
 .header > img {
   margin: 2vw;
-  width: 30vw;
+  width: 20vw;
+  margin-left: 5rem;
 }
 
-.header > p {
+.header > h3 {
   margin-top: 13vw;
+  line-height: 3rem;
+  margin-left: 15rem;
 }
 
 .box1 .name {
@@ -66,6 +69,139 @@ body {
   left: calc(26vw);
   width: 5rem;
 }
+// star-1
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #df8453;
+  --color-2: #3d8dae;
+  --color-3: #b4e197;
+}
+
+.title-word-2 {
+  --color-1: #dbad4a;
+  --color-2: #accfcb;
+  --color-3: #17494d;
+}
+
+.title-word-3 {
+  --color-1: #accfcb;
+  --color-2: #b4e197;
+  --color-3: #accfcb;
+}
+
+.title-word-4 {
+  --color-1: #3d8dae;
+  --color-2: #df8453;
+  --color-3: #b4e197;
+}
+
+.title-word-5 {
+  --color-1: #6d8b74;
+  --color-2: #efd345;
+  --color-3: #069a8e;
+}
+
+@keyframes color-animation {
+  0% {
+    color: var(--color-1);
+  }
+  32% {
+    color: var(--color-1);
+  }
+  33% {
+    color: var(--color-2);
+  }
+  65% {
+    color: var(--color-2);
+  }
+  66% {
+    color: var(--color-3);
+  }
+  99% {
+    color: var(--color-3);
+  }
+  100% {
+    color: var(--color-1);
+  }
+}
+
+.anime {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 8.5vw;
+  text-transform: uppercase;
+}
+
+// end-1
+
+// start-2
+
+.name {
+  position: relative;
+}
+
+.name h6 {
+  color: #fff;
+  font-size: 2em;
+  margin-top: 5rem;
+  margin-left: 9rem;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.name h6:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #019267;
+}
+
+.name h6:nth-child(2) {
+  color: #00C897;
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+
+// end-2
 
 .box2 > img {
   max-width: 40vw;
@@ -88,6 +224,80 @@ body {
 .box3 > img {
   max-width: 15vw;
 }
+
+// start3
+
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #df8453;
+  --color-2: #3d8dae;
+  --color-3: #b4e197;
+}
+
+.title-word-2 {
+  --color-1: #dbad4a;
+  --color-2: #accfcb;
+  --color-3: #17494d;
+}
+
+.title-word-3 {
+  --color-1: #accfcb;
+  --color-2: #b4e197;
+  --color-3: #accfcb;
+}
+
+.title-word-4 {
+  --color-1: #3d8dae;
+  --color-2: #df8453;
+  --color-3: #b4e197;
+}
+
+.title-word-5 {
+  --color-1: #6d8b74;
+  --color-2: #efd345;
+  --color-3: #069a8e;
+}
+
+@keyframes color-animation {
+  0% {
+    color: var(--color-1);
+  }
+  32% {
+    color: var(--color-1);
+  }
+  33% {
+    color: var(--color-2);
+  }
+  65% {
+    color: var(--color-2);
+  }
+  66% {
+    color: var(--color-3);
+  }
+  99% {
+    color: var(--color-3);
+  }
+  100% {
+    color: var(--color-1);
+  }
+}
+
+.element {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.ball {
+
+}
+
+// end3
 
 .box4 .left,
 .box4 .right {
